@@ -95,4 +95,16 @@ O **stash** é uma forma de salvar temporariamente suas mudanças não commitada
 - `git stash pop`: Aplica e remove o stash da lista.
 - `git stash list`: Lista todas as mudanças armazenadas no stash.lista.
 
+## 8. Conceito de Workflow
+
+O Workflow do Git refere-se ao conjunto de práticas e procedimentos que uma equipe ou um desenvolvedor individual segue ao usar o Git para gerenciar alterações em um projeto.
+
+### Workflow Básico:
+1. `git clone` para copiar o repositório remoto.
+2. `git pull` para sincronizar as mudanças do repositório remoto.
+3. `git checkout -b [nome-da-branch]` para criar e mudar para uma nova branch.
+4. `git add` e `git commit` para salvar as mudanças.
+5. `git push` para enviar suas mudanças para o repositório remoto.
+6. `git checkout main` e `git merge [nome-da-branch]` para integrar a funcionalidade desenvolvida.
+
 ---
