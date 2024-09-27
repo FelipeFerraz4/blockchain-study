@@ -26,6 +26,12 @@ Um **repositório** é o local onde o histórico de versões do seu projeto é a
   - `git init`: Inicializa um novo repositório Git local.
   - `git clone [URL]`: Clona um repositório remoto para o seu ambiente local.
 
+- Comandos de Configuração:
+  - `git config --list`: Lista todas as configurações do Git atualmente definidas.
+  - `git config --global user.name "Seu Nome"`: Configura o nome de usuário que será associado aos commits.
+  - `git config --global user.email "seu.email@example.com"`: Configura o endereço de e-mail que será associado aos commits.
+
+
 ### 2. Commit
 
 Um **commit** é uma captura de uma mudança no código. Ele salva as alterações feitas em um ou mais arquivos e cria um ponto de restauração no histórico do repositório. Cada commit tem uma mensagem associada, que descreve o que foi alterado.
@@ -39,10 +45,12 @@ Um **commit** é uma captura de uma mudança no código. Ele salva as alteraçõ
 
 Um **branch** (ramo) é uma linha independente de desenvolvimento dentro do repositório. Ele permite que você trabalhe em funcionalidades ou correções separadas do código principal (geralmente a branch `main` ou `master`). Isso permite que diferentes versões do código sejam desenvolvidas simultaneamente.
 
-- Comandos:
+- **Comandos:**
   - `git branch [nome-da-branch]`: Cria uma nova branch.
-  - `git checkout [nome-da-branch]`: Troca para a branch especificada.
-  - `git checkout -b [nome-da-branch]`: Cria e muda para uma nova branch ao mesmo tempo.
+  - `git switch [nome-da-branch]`: Troca para a branch especificada (comando mais recente e intuitivo).
+  - `git checkout [nome-da-branch]`: Também troca para a branch especificada (comando mais antigo, mas ainda válido).
+  - `git switch -c [nome-da-branch]`: Cria e muda para uma nova branch ao mesmo tempo.
+  - `git checkout -b [nome-da-branch]`: Cria e muda para uma nova branch ao mesmo tempo (comando mais antigo).
   - `git branch -d [nome-da-branch]`: Exclui uma branch que não está mais em uso.
 
 ### 4. Merge
@@ -73,7 +81,8 @@ O conceito de **sincronização de repositórios** no Git refere-se ao processo 
 
 ### Comando:
 - `git status`: Mostra se há conflitos de merge e quais arquivos estão envolvidos.
-- Resolva os conflitos no arquivo problemático e então faça um commit.
+- `git log --merge`: Mostra quais commits estão causando o conflito.
+ 
 
 ## 7. Stash
 
@@ -82,7 +91,8 @@ O **stash** é uma forma de salvar temporariamente suas mudanças não commitada
 ### Comandos:
 - `git stash`: Guarda as mudanças não commitadas.
 - `git stash apply`: Aplica as mudanças que estavam no stash.
-- `git stash drop`: Remove um stash.
-
+- `git stash drop [stash]`: Remove um stash específico.
+- `git stash pop`: Aplica e remove o stash da lista.
+- `git stash list`: Lista todas as mudanças armazenadas no stash.lista.
 
 ---
