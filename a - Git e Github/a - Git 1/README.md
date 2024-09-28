@@ -136,7 +136,47 @@ Um arquivo `tracked` é aquele que já foi adicionado ao repositório e está se
 
 - Exemplo: Qualquer arquivo que já tenha sido commitado ou que tenha sido adicionado usando `git add`.
 
+## 10. Unmodified, Modified, e Staged
 
+Quando um arquivo é `tracked`, ele pode estar no estado `unmodified`, `modified` e `staged`; dependendo se as há mudanças ou se elas foram preparadas para o próximo commit ou não.
 
+### Unmodified (Sem Modificações)
+
+Um arquivo `unmodified` é um arquivo que está sendo rastreado pelo Git, mas não sofreu modificações desde o último commit.
+
+- O que isso significa?
+  - O Git está monitorando este arquivo, mas não há alterações a serem registradas.
+  - Ele aparece no seu repositório exatamente como estava no último commit.
+  
+- Exemplo: Você fez o commit de um arquivo recentemente e não fez mais nenhuma alteração nele.
+
+- Como verificar?
+  - Arquivos sem modificações não aparecem na saída de `git status` porque não precisam de atenção no momento.
+
+### Modified (Modificado)
+
+Quando você faz mudanças em um arquivo `unmodified`, ele se torna um arquivo `modified`.
+
+- O que isso significa?
+  - O Git detecta que o conteúdo do arquivo mudou em relação ao último commit.
+  - Porém, essas mudanças ainda não foram preparadas para serem incluídas no próximo commit (ou seja, estão no estado `unstaged`).
+
+- Exemplo: Você editou o conteúdo de um arquivo rastreado, mas ainda não o adicionou à área de preparação `(staging area)`.
+
+- Como verificar?
+  - Execute `git status`, e você verá a mensagem de que há arquivos modificados, mas ainda não preparados para o commit
+
+### Staged (Preparado para Commit)
+
+Um arquivo `staged` é aquele que foi modificado e, em seguida, adicionado à `staging area` usando o comando `git add`. Isso significa que ele está pronto para ser incluído no próximo commit.
+
+- O que isso significa?
+  - O Git tirou um `snapshot` (foto) das mudanças feitas no arquivo e as preparou para o commit.
+  - Arquivos `staged` serão parte do próximo commit que você fizer.
+
+- Exemplo: Após modificar um arquivo, você usa `git add [arquivo]` para colocá-lo na `staging area`, e ele agora está pronto para ser commitado.
+
+- Como verificar?
+  - Ao rodar `git status`, você verá que o arquivo foi preparado para o commit
 
 ---
