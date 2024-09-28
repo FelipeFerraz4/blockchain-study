@@ -9,8 +9,8 @@ Este repositório foi criado para armazenar e organizar diversos conteúdos e t�
   
 ### Tópicos Incluídos
 1. **Git e Github**
-   - Módulo Git
-   - Módulo Github
+   - Módulo Git 1
+   - Módulo Git 2
 
 ## Contribuições
 
