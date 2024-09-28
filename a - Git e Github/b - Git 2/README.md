@@ -82,3 +82,10 @@ Após Squash (por exemplo, combinando D, E, F):
 main:   A---B---C---D'
 ```
 Agora, os commits D, E e F são combinados em um único commit D'.
+
+### 4. Outros comandos
+
+- Comandos:
+  - `git tag [nome]:` Cria uma tag no commit atual.
+  - `git blame [arquivo]:` Mostra quem fez cada alteração em um arquivo específico.
+  - `git reflog:` Mostra o histórico de referências para commits locais (incluindo aqueles perdidos após resets).

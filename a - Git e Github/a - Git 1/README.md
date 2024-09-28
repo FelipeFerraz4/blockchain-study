@@ -65,9 +65,10 @@ O **merge** combina as alterações feitas em uma branch com outra. Isso é comu
 
 O conceito de **sincronização de repositórios** no Git refere-se ao processo de manter os repositórios local (na sua máquina) e remoto (geralmente em um serviço de hospedagem como GitHub, GitLab ou Bitbucket) em um estado consistente e atualizado. A sincronização é fundamental para a colaboração em equipe e para garantir que todos os desenvolvedores tenham acesso às últimas alterações no código.
 
-- Importancia da sincronização:
-  - Evitar conflitos: Quando você sincroniza regularmente seu repositório local com o remoto, reduz o risco de conflitos de código.
-  - Backup e segurança: O repositório remoto serve como um backup seguro das suas alterações.
+> [!IMPORTANT]
+> Importancia da sincronização:
+>  - Evitar conflitos: Quando você sincroniza regularmente seu repositório local com o remoto, reduz o risco de conflitos de código.
+>  - Backup e segurança: O repositório remoto serve como um backup seguro das suas alterações.
 
 - Comando:
   - `git pull [remote] [branch]`: Puxa as alterações de um repositório remoto para a branch local.
