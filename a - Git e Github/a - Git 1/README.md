@@ -108,4 +108,35 @@ O Workflow do Git refere-se ao conjunto de práticas e procedimentos que uma equ
 5. `git push` para enviar suas mudanças para o repositório remoto.
 6. `git checkout main` e `git merge [nome-da-branch]` para integrar a funcionalidade desenvolvida.
 
+## 9. Untracked e Tracked
+
+No Git, todos os arquivos do seu projeto estão em um de dois estados principais: untracked ou tracked.
+
+### Untracked
+
+- Um arquivo `untracked` é aquele que existe no diretório do seu projeto, mas o Git ainda não está monitorando suas mudanças.
+- Esses arquivos ainda não foram adicionados ao sistema de controle de versão.
+- Eles aparecem ao executar `git status` como arquivos não rastreados.
+
+- Exemplo: Você criou um novo arquivo, mas ainda não usou `git add` para incluí-lo no controle de versão.
+  - Para começar a rastrear um arquivo `untracked`, você usa:
+
+    ```bash
+    git add [arquivo]
+    ```
+
+### Tracked
+
+Um arquivo `tracked` é aquele que já foi adicionado ao repositório e está sendo monitorado pelo Git.
+
+- Arquivos tracked podem estar em três subestados: 
+  - `Unmodified:` sem modificações 
+  - `Modified:` modificado
+  - `Staged:` preparado para commit.
+
+- Exemplo: Qualquer arquivo que já tenha sido commitado ou que tenha sido adicionado usando `git add`.
+
+
+
+
 ---
