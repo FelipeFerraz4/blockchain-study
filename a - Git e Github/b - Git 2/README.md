@@ -35,7 +35,7 @@ O **Rebase** é uma maneira de aplicar uma sequência de commits de uma branch e
 
 **Exemplo Visual:**
 
-- Antes do Rebase:
+Antes do Rebase:
 ```bash
 main:    A---B---C---D
                    \
@@ -53,3 +53,32 @@ feature:                 E'---F'---G'
 > **Cuidados com o Rebase:**
 >  - `Histórico compartilhado:` Evite fazer rebase em commits que já foram enviados para um repositório remoto (por exemplo, no GitHub). Isso pode causar problemas para outros desenvolvedores, pois o rebase reescreve o histórico.
 >  - `Resolução de conflitos:` Se houver conflitos durante o rebase, o Git irá pausá-lo para que você resolva os conflitos. Após resolver, você precisa continuar com `git rebase --continue`.
+
+### 3. Squash
+
+O **Squash** é uma técnica usada para combinar múltiplos commits em um único commit. Isso é útil quando você tem vários commits pequenos e intermediários (como correções de bugs ou mudanças menores) que deseja agrupar em um único commit, deixando o histórico mais claro e coeso.
+
+**Funcionamento do Squash:**
+
+- Inicie um Rebase Interativo:
+  - Você pode usar `git rebase -i HEAD~[n]` onde [n] é o número de commits que você deseja ver na lista.
+
+- Squash na tela de rebase:
+  - Quando a tela de rebase interativo aparecer, você verá uma lista de commits recentes. Você pode substituir a palavra pick por squash (ou simplesmente s) nos commits que deseja combinar.
+
+- Confirme as mudanças:
+  - Após escolher os commits para `squash`, o Git vai mesclar as mensagens de commit e você pode editá-las para criar uma única mensagem mais significativa.
+
+**Exemplo Visual:**
+
+Antes do Squash:
+
+```bash
+main:   A---B---C---D---E---F---G
+```
+
+Após Squash (por exemplo, combinando D, E, F):
+```bash
+main:   A---B---C---D'
+```
+Agora, os commits D, E e F são combinados em um único commit D'.
