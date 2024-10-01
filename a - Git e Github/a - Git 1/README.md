@@ -50,9 +50,10 @@ O **merge** combina as alterações feitas em uma branch com outra. Isso é comu
 
 O conceito de **sincronização de repositórios** no Git refere-se ao processo de manter os repositórios local (na sua máquina) e remoto (geralmente em um serviço de hospedagem como GitHub, GitLab ou Bitbucket) em um estado consistente e atualizado. A sincronização é fundamental para a colaboração em equipe e para garantir que todos os desenvolvedores tenham acesso às últimas alterações no código.
 
-- Importancia da sincronização:
-  - Evitar conflitos: Quando você sincroniza regularmente seu repositório local com o remoto, reduz o risco de conflitos de código.
-  - Backup e segurança: O repositório remoto serve como um backup seguro das suas alterações.
+> [!IMPORTANT]
+> Importancia da sincronização:
+>  - Evitar conflitos: Quando você sincroniza regularmente seu repositório local com o remoto, reduz o risco de conflitos de código.
+>  - Backup e segurança: O repositório remoto serve como um backup seguro das suas alterações.
 
 - Comando:
   - `git pull [remote] [branch]`: Puxa as alterações de um repositório remoto para a branch local.
@@ -91,5 +92,76 @@ O Workflow do Git refere-se ao conjunto de práticas e procedimentos que uma equ
 4. `git add` e `git commit` para salvar as mudanças.
 5. `git push` para enviar suas mudanças para o repositório remoto.
 6. `git checkout main` e `git merge [nome-da-branch]` para integrar a funcionalidade desenvolvida.
+
+## 9. Untracked e Tracked
+
+No Git, todos os arquivos do seu projeto estão em um de dois estados principais: untracked ou tracked.
+
+### Untracked
+
+- Um arquivo `untracked` é aquele que existe no diretório do seu projeto, mas o Git ainda não está monitorando suas mudanças.
+- Esses arquivos ainda não foram adicionados ao sistema de controle de versão.
+- Eles aparecem ao executar `git status` como arquivos não rastreados.
+
+- Exemplo: Você criou um novo arquivo, mas ainda não usou `git add` para incluí-lo no controle de versão.
+  - Para começar a rastrear um arquivo `untracked`, você usa:
+
+    ```bash
+    git add [arquivo]
+    ```
+
+### Tracked
+
+Um arquivo `tracked` é aquele que já foi adicionado ao repositório e está sendo monitorado pelo Git.
+
+- Arquivos tracked podem estar em três subestados: 
+  - `Unmodified:` sem modificações 
+  - `Modified:` modificado
+  - `Staged:` preparado para commit.
+
+- Exemplo: Qualquer arquivo que já tenha sido commitado ou que tenha sido adicionado usando `git add`.
+
+## 10. Unmodified, Modified, e Staged
+
+Quando um arquivo é `tracked`, ele pode estar no estado `unmodified`, `modified` e `staged`; dependendo se as há mudanças ou se elas foram preparadas para o próximo commit ou não.
+
+### Unmodified (Sem Modificações)
+
+Um arquivo `unmodified` é um arquivo que está sendo rastreado pelo Git, mas não sofreu modificações desde o último commit.
+
+- O que isso significa?
+  - O Git está monitorando este arquivo, mas não há alterações a serem registradas.
+  - Ele aparece no seu repositório exatamente como estava no último commit.
+  
+- Exemplo: Você fez o commit de um arquivo recentemente e não fez mais nenhuma alteração nele.
+
+- Como verificar?
+  - Arquivos sem modificações não aparecem na saída de `git status` porque não precisam de atenção no momento.
+
+### Modified (Modificado)
+
+Quando você faz mudanças em um arquivo `unmodified`, ele se torna um arquivo `modified`.
+
+- O que isso significa?
+  - O Git detecta que o conteúdo do arquivo mudou em relação ao último commit.
+  - Porém, essas mudanças ainda não foram preparadas para serem incluídas no próximo commit (ou seja, estão no estado `unstaged`).
+
+- Exemplo: Você editou o conteúdo de um arquivo rastreado, mas ainda não o adicionou à área de preparação `(staging area)`.
+
+- Como verificar?
+  - Execute `git status`, e você verá a mensagem de que há arquivos modificados, mas ainda não preparados para o commit
+
+### Staged (Preparado para Commit)
+
+Um arquivo `staged` é aquele que foi modificado e, em seguida, adicionado à `staging area` usando o comando `git add`. Isso significa que ele está pronto para ser incluído no próximo commit.
+
+- O que isso significa?
+  - O Git tirou um `snapshot` (foto) das mudanças feitas no arquivo e as preparou para o commit.
+  - Arquivos `staged` serão parte do próximo commit que você fizer.
+
+- Exemplo: Após modificar um arquivo, você usa `git add [arquivo]` para colocá-lo na `staging area`, e ele agora está pronto para ser commitado.
+
+- Como verificar?
+  - Ao rodar `git status`, você verá que o arquivo foi preparado para o commit
 
 ---
