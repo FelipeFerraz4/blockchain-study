@@ -83,9 +83,23 @@ main:   A---B---C---D'
 ```
 Agora, os commits D, E e F são combinados em um único commit D'.
 
-### 4. Outros comandos
+## 4. Stash
+
+O **stash** é uma forma de salvar temporariamente suas mudanças não commitadas sem adicioná-las ao commit. Isso é útil quando você precisa mudar de branch, mas ainda não quer fazer commit das mudanças atuais.
+
+### Comandos:
+- `git stash`: Guarda as mudanças não commitadas.
+- `git stash apply`: Aplica as mudanças que estavam no stash.
+- `git stash drop [stash]`: Remove um stash específico.
+- `git stash pop`: Aplica e remove o stash da lista.
+- `git stash list`: Lista todas as mudanças armazenadas no stash.lista.
+
+
+### 5. Outros comandos
 
 - Comandos:
   - `git tag [nome]:` Cria uma tag no commit atual.
   - `git blame [arquivo]:` Mostra quem fez cada alteração em um arquivo específico.
   - `git reflog:` Mostra o histórico de referências para commits locais (incluindo aqueles perdidos após resets).
+
+---

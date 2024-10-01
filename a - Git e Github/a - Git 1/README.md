@@ -70,18 +70,7 @@ O conceito de **sincronização de repositórios** no Git refere-se ao processo 
 - `git log --merge`: Mostra quais commits estão causando o conflito.
  
 
-## 7. Stash
-
-O **stash** é uma forma de salvar temporariamente suas mudanças não commitadas sem adicioná-las ao commit. Isso é útil quando você precisa mudar de branch, mas ainda não quer fazer commit das mudanças atuais.
-
-### Comandos:
-- `git stash`: Guarda as mudanças não commitadas.
-- `git stash apply`: Aplica as mudanças que estavam no stash.
-- `git stash drop [stash]`: Remove um stash específico.
-- `git stash pop`: Aplica e remove o stash da lista.
-- `git stash list`: Lista todas as mudanças armazenadas no stash.lista.
-
-## 8. Conceito de Workflow
+## 7. Conceito de Workflow
 
 O Workflow do Git refere-se ao conjunto de práticas e procedimentos que uma equipe ou um desenvolvedor individual segue ao usar o Git para gerenciar alterações em um projeto.
 
@@ -93,7 +82,7 @@ O Workflow do Git refere-se ao conjunto de práticas e procedimentos que uma equ
 5. `git push` para enviar suas mudanças para o repositório remoto.
 6. `git checkout main` e `git merge [nome-da-branch]` para integrar a funcionalidade desenvolvida.
 
-## 9. Untracked e Tracked
+## 8. Untracked e Tracked
 
 No Git, todos os arquivos do seu projeto estão em um de dois estados principais: untracked ou tracked.
 
@@ -121,7 +110,7 @@ Um arquivo `tracked` é aquele que já foi adicionado ao repositório e está se
 
 - Exemplo: Qualquer arquivo que já tenha sido commitado ou que tenha sido adicionado usando `git add`.
 
-## 10. Unmodified, Modified, e Staged
+## 9. Unmodified, Modified, e Staged
 
 Quando um arquivo é `tracked`, ele pode estar no estado `unmodified`, `modified` e `staged`; dependendo se as há mudanças ou se elas foram preparadas para o próximo commit ou não.
 
