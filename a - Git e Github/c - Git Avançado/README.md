@@ -2,52 +2,7 @@
 
 ## Conceitos Avançados
 
-### 1. Conventional Commits
-
-A **Git Commit Convention** (ou **Git Commit Message Guidelines**) refere-se a um conjunto de práticas recomendadas para escrever mensagens de commit de forma padronizada e compreensível.
-
-- **Estrutura do Commit:**
-  ```bash
-  <tipo>[escopo opcional]: <descrição curta>
-
-  [corpo opcional]
-
-  [rodapé opcional]
-  ```
-
-- **Tipo** `(obrigatório)`:
-
-  O tipo indica o propósito do commit.
-    - `feat:` Uma nova funcionalidade para o projeto.
-    - `fix:` Correção de um bug.
-    - `chore:` Alterações de manutenção ou tarefas que não afetam o código de produção (por exemplo, mudanças de configuração).
-    - `docs:` Alterações na documentação.
-    - `style:` Mudanças relacionadas a formatação de código (espaços em branco, ponto e vírgula, etc.) que não alteram a lógica.
-    - `refactor:` Mudança de código que não corrige um bug nem adiciona uma funcionalidade.
-    - `test:` Adição ou correção de testes.
-    - `perf:` Melhorias de performance.
-    - `build:` Alterações que afetam o sistema de build ou dependências externas.
-    - `ci:` Mudanças relacionadas à configuração de CI (integração contínua).
-  
-- **Escopo** `(opcional)`:
-
-  O escopo define a área do código afetada pela mudança, como um módulo, componente ou camada. Exemplo: feat(user): adicionar endpoint de criação de usuário.
-
-- **Descrição curta** `(obrigatório)`:
-
-  Uma breve descrição do que foi alterado. Deve ser objetiva e clara, sem ponto final.
-
-- **Corpo** `(opcional)`:
-
-  Aqui você pode adicionar mais detalhes sobre a mudança. Isso é útil quando o commit é complexo ou precisa de uma explicação adicional. Use o corpo para descrever o que foi alterado e por que.
-
-- **Rodapé** `(opcional)`:
-  
-  O rodapé é usado para informações como fechar issues ou breaking changes (mudanças que quebram compatibilidade):
-    - `BREAKING CHANGE:` Para descrever mudanças que quebram compatibilidade com versões anteriores.
-    - `Fixes #<issue-number>:` Para vincular o commit a uma issue no GitHub, Jira, etc.
-
-### 2. Aliases
+### 1. Aliases
 
 Os **Aliases** são atalhos para comandos Git, permitindo a execução de comandos comuns de forma mais rápida.
 
@@ -58,7 +13,7 @@ Os **Aliases** são atalhos para comandos Git, permitindo a execução de comand
   - `git config --global alias.ci commit`: Cria um alias global para o comando `git commit`.
   - `git config --global alias.lg "log --oneline --graph --all`: Cria um alias global para visualizar o histórico de commits em formato gráfico e simplificado.
 
-### 3. Rebase
+### 2. Rebase
 
 O **Rebase** é uma maneira de aplicar uma sequência de commits de uma branch em outra. Ele essencialmente "move" ou "rebaseia" os commits da sua branch de origem sobre a nova base de outra branch, como a `main`, criando um histórico linear e sem merges extras.
 
@@ -99,7 +54,7 @@ feature:                 E'---F'---G'
 >  - `Histórico compartilhado:` Evite fazer rebase em commits que já foram enviados para um repositório remoto (por exemplo, no GitHub). Isso pode causar problemas para outros desenvolvedores, pois o rebase reescreve o histórico.
 >  - `Resolução de conflitos:` Se houver conflitos durante o rebase, o Git irá pausá-lo para que você resolva os conflitos. Após resolver, você precisa continuar com `git rebase --continue`.
 
-### 4. Squash
+### 3. Squash
 
 O **Squash** é uma técnica usada para combinar múltiplos commits em um único commit. Isso é útil quando você tem vários commits pequenos e intermediários (como correções de bugs ou mudanças menores) que deseja agrupar em um único commit, deixando o histórico mais claro e coeso.
 
@@ -128,7 +83,7 @@ main:   A---B---C---D'
 ```
 Agora, os commits D, E e F são combinados em um único commit D'.
 
-## 5. Stash
+## 4. Stash
 
 O **stash** é uma forma de salvar temporariamente suas mudanças não commitadas sem adicioná-las ao commit. Isso é útil quando você precisa mudar de branch, mas ainda não quer fazer commit das mudanças atuais.
 
