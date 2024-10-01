@@ -4,20 +4,6 @@ O Git é um sistema de controle de versão distribuído que permite que equipes 
 
 ## Conceitos Básicos
 
-
-<!-- # Configura nome e e-mail do usuário
-git config --global user.name "Seu Nome"
-git config --global user.email "seu.email@example.com"
-
-# Verifica as configurações
-git config --list
-
-# Define editor de texto padrão
-git config --global core.editor "code --wait"
-
-# Cria um alias para git status
-git config --global alias.st status -->
-
 ### 1. Repositório
 
 Um **repositório** é o local onde o histórico de versões do seu projeto é armazenado. Ele contém todos os arquivos do projeto, além de informações sobre todas as mudanças feitas ao longo do tempo. Um repositório Git pode ser local (na sua máquina) ou remoto (hospedado em plataformas como GitHub, GitLab, Bitbucket, etc.).
@@ -30,7 +16,6 @@ Um **repositório** é o local onde o histórico de versões do seu projeto é a
   - `git config --list`: Lista todas as configurações do Git atualmente definidas.
   - `git config --global user.name "Seu Nome"`: Configura o nome de usuário que será associado aos commits.
   - `git config --global user.email "seu.email@example.com"`: Configura o endereço de e-mail que será associado aos commits.
-
 
 ### 2. Commit
 
