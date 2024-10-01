@@ -1,4 +1,4 @@
-# Guia do Git 2
+# Guia do Git
 
 ## Conceitos Avançados
 
