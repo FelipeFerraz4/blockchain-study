@@ -83,3 +83,29 @@ A **Git Commit Convention** (ou **Git Commit Message Guidelines**) refere-se a u
     - chore/configurar-ci
     - docs/atualizar-manual-usuario
     - hotfix/corrigir-crash-app 
+  
+### 3. Tags
+
+As **tags** no Git são usadas para marcar pontos específicos no histórico do repositório, geralmente para identificar versões de lançamento (releases). Ao contrário dos branches, as tags são referências imutáveis a um commit específico e são úteis para manter um histórico de versões do software.
+
+> [!NOTE]
+> Tags não são automaticamente enviadas para o repositório remoto quando você faz um git push.
+
+- **Quando Usar Tags**
+  - `Releases:` Marcar a versão exata de um software que foi enviado para produção.
+  - `Marcos importantes:` Definir pontos-chave no desenvolvimento, como a conclusão de uma fase importante.
+- **Tipos de Tags**
+  - `Tags Anotadas`: Armazenam informações extras como nome do criador, e-mail, data e uma mensagem. São recomendadas para versionamento formal.
+  - `Tags Leves`: São simplesmente um ponteiro para um commit específico, sem armazenar informações adicionais. São mais simples e usadas para marcar commits temporariamente.
+
+- **Comandos**:
+  - `git tag vX.Y.Z`: Cria tags Leves.
+  - `git tag -a v1.0.0 -m "Versão 1.0.0"`: Cria tags Anotadas com um mensagem descritiva da tag.
+  - `git tag`: lista todas as tags no repositório.
+  - `git show v1.0.0`: Obtem mais detalhes de uma tag específica.
+  - `git push origin v1.0.0`: Empurrar Tags para um Repositório Remoto.
+  - `git push origin --tags`: Enviar todas as tags para um Repositório Remoto.
+  - `git tag -d v1.0.0`: Deleta uma tag localmente.
+  - `git push origin --delete v1.0.0`: git push origin --delete v1.0.0
+
+---
