@@ -12,6 +12,7 @@ Este repositório foi criado para armazenar e organizar diversos conteúdos e t�
    - Módulo Git Básico
    - Módulo Git Convenções
    - Módulo Git Avançado
+   - Módulo Git Flow
 
 ## Contribuições
 
