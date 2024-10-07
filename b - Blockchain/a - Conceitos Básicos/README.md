@@ -1,1 +1,0 @@
-# Conceitos Básicos de Blockchain
