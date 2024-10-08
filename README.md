@@ -15,7 +15,8 @@ Este repositório foi criado para armazenar e organizar diversos conteúdos e t�
    - [Módulo Git Flow](https://github.com/FelipeFerraz4/blockchain-study/tree/main/a%20-%20Git%20e%20Github/d%20-%20Git%20Flow)
 2. **Blockchain**
    - [Quando Usar Blockchain](https://github.com/FelipeFerraz4/blockchain-study/tree/main/b%20-%20Blockchain/a%20-%20Quando%20Usar%20Blockchain)
-   - [Origem do Blockchain](https://github.com/FelipeFerraz4/blockchain-study/tree/main/b%20-%20Blockchain/b%20-%20Origem%20do%20Blockchain)
+   - [Origem da Blockchain](https://github.com/FelipeFerraz4/blockchain-study/tree/main/b%20-%20Blockchain/b%20-%20Origem%20do%20Blockchain)
+   - [Estrutura da Blockchain](https://github.com/FelipeFerraz4/blockchain-study/tree/main/b%20-%20Blockchain/c%20-%20Estrutura%20da%20Blockchain)
 
 ## Contribuições
 
