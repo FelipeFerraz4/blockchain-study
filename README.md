@@ -20,8 +20,8 @@ Este repositório foi criado para armazenar e organizar diversos conteúdos e t�
    - [Assinatura Digital em Blockchain](https://github.com/FelipeFerraz4/blockchain-study/tree/main/b%20-%20Blockchain/d%20-%20Assinatura%20Digital%20na%20Blockchain)
    - [Proof of Work (PoW) e Mining Pools](https://github.com/FelipeFerraz4/blockchain-study/tree/main/b%20-%20Blockchain/e%20-%20Prova%20de%20Trabalho)
    - [Problema do Gasto Duplo](https://github.com/FelipeFerraz4/blockchain-study/tree/main/b%20-%20Blockchain/f%20-%20Gasto%20Duplo)
-   - [O que é ter Bitcoin?]()
-   - [Carteiras de Bitcoin]()
+   - [O que é ter Bitcoin?](https://github.com/FelipeFerraz4/blockchain-study/tree/main/b%20-%20Blockchain/g%20-%20O%20que%20e%20ter%20Bitcoin%20%3F)
+   - [Carteiras de Bitcoin](https://github.com/FelipeFerraz4/blockchain-study/tree/main/b%20-%20Blockchain/h%20-%20Carteiras%20de%20Bitcoin)
 
 ## Contribuições
 
