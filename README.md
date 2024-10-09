@@ -19,7 +19,7 @@ Este repositório foi criado para armazenar e organizar diversos conteúdos e t�
    - [Estrutura da Blockchain](https://github.com/FelipeFerraz4/blockchain-study/tree/main/b%20-%20Blockchain/c%20-%20Estrutura%20da%20Blockchain)
    - [Assinatura Digital em Blockchain](https://github.com/FelipeFerraz4/blockchain-study/tree/main/b%20-%20Blockchain/d%20-%20Assinatura%20Digital%20na%20Blockchain)
    - [Proof of Work (PoW) e Mining Pools](https://github.com/FelipeFerraz4/blockchain-study/tree/main/b%20-%20Blockchain/e%20-%20Prova%20de%20Trabalho)
-   - [Problema do Gasto Duplo]()
+   - [Problema do Gasto Duplo](https://github.com/FelipeFerraz4/blockchain-study/tree/main/b%20-%20Blockchain/f%20-%20Gasto%20Duplo)
 
 ## Contribuições
 
