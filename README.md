@@ -22,7 +22,7 @@ Este repositório foi criado para armazenar e organizar diversos conteúdos e t�
    - [Problema do Gasto Duplo](https://github.com/FelipeFerraz4/blockchain-study/tree/main/b%20-%20Blockchain/f%20-%20Gasto%20Duplo)
    - [O que é ter Bitcoin?](https://github.com/FelipeFerraz4/blockchain-study/tree/main/b%20-%20Blockchain/g%20-%20O%20que%20e%20ter%20Bitcoin%20%3F)
    - [Carteiras de Bitcoin](https://github.com/FelipeFerraz4/blockchain-study/tree/main/b%20-%20Blockchain/h%20-%20Carteiras%20de%20Bitcoin)
-   - [Exchanges]()
+   - [Exchanges](https://github.com/FelipeFerraz4/blockchain-study/tree/main/b%20-%20Blockchain/i%20-%20Exchanges)
 
 ## Contribuições
 
