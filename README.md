@@ -21,6 +21,7 @@ Este repositório foi criado para armazenar e organizar diversos conteúdos e t�
    - [Proof of Work (PoW) e Mining Pools](https://github.com/FelipeFerraz4/blockchain-study/tree/main/b%20-%20Blockchain/e%20-%20Prova%20de%20Trabalho)
    - [Problema do Gasto Duplo](https://github.com/FelipeFerraz4/blockchain-study/tree/main/b%20-%20Blockchain/f%20-%20Gasto%20Duplo)
    - [O que é ter Bitcoin?]()
+   - [Carteiras de Bitcoin]()
 
 ## Contribuições
 
