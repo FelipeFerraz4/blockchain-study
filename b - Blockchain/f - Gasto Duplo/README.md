@@ -2,7 +2,7 @@
 
 ## O que é o Gasto Duplo?
 
-O **gasto duplo** ocorre quando um mesmo ativo digital pode ser usado mais de uma vez. No caso de criptomoedas, como o Bitcoin, isso significaria que a mesma moeda poderia ser gasta várias vezes, comprometendo a confiança e a integridade do sistema. Esse problema é evitado em sistemas centralizados, onde uma entidade verifica as transações, mas em um sistema descentralizado como o Bitcoin, a prevenção do gasto duplo depende de técnicas sofisticadas, como o uso do blockchain e da árvore de Merkle.
+O **gasto duplo** ocorre quando um mesmo ativo digital pode ser usado mais de uma vez. No caso de criptomoedas, como o Bitcoin, isso significaria que a mesma moeda poderia ser gasta várias vezes, comprometendo a confiança e a integridade do sistema. Esse problema é evitado em sistemas centralizados, onde uma entidade verifica as transações, mas em um sistema descentralizado como o Bitcoin, a prevenção do gasto duplo depende de técnicas sofisticadas, como o uso do blockchain, Proof of Work, árvores de Merkle e o consenso descentralizado da rede.
 
 ## Como o Bitcoin Resolve o Gasto Duplo?
 
