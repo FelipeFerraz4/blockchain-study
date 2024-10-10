@@ -45,6 +45,7 @@ O estado global da blockchain Ethereum é uma combinação de todos os estados d
 A **EVM** é o ambiente de execução dos contratos inteligentes no Ethereum. Ela é uma máquina virtual descentralizada que transforma o Ethereum em uma plataforma de computação distribuída. Funciona de forma que qualquer nó na rede Ethereum possa executar o código contido em um contrato inteligente.
 
 **Contratos inteligentes:** São programas armazenados na blockchain que executam ações automaticamente quando determinadas condições são atendidas. Eles são escritos principalmente em ``Solidity``, a principal linguagem de programação do Ethereum.
+
 **Turing Completo:** A EVM é Turing-completa, o que significa que, com recursos computacionais suficientes (tempo e memória), pode executar qualquer operação computacional possível.
 Cada transação no Ethereum executa uma função ou uma série de funções em um contrato inteligente. A execução de cada operação na EVM tem um custo de computação que é pago com GAS.
 
