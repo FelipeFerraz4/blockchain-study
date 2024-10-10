@@ -62,7 +62,7 @@ Cada transação no Ethereum executa uma função ou uma série de funções em 
 **Contratos inteligentes** são scripts programáveis que executam automaticamente ações quando determinadas condições são atendidas. Eles estão na base da funcionalidade do Ethereum e permitem a criação de Dapps.
 
 - **Características principais:**
-  - ``Auto-execução:`` Quando as condições definidas no contrato são atendidas, o contrato é automaticamente executado, sem a necessidade de uma parte intermediária.
+  - ``Autoexecução:`` Quando as condições definidas no contrato são atendidas, o contrato é automaticamente executado, sem a necessidade de uma parte intermediária.
   - ``Imutabilidade:`` Uma vez que o contrato é implantado na blockchain, ele não pode ser alterado.
   - ``Descentralização:`` Eles são executados de forma descentralizada pela EVM, o que significa que não há uma única entidade que controle a execução.
 
