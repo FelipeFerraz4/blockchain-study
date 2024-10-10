@@ -54,6 +54,7 @@ Cada transação no Ethereum executa uma função ou uma série de funções em 
 **GAS** é a unidade que mede a quantidade de esforço computacional necessário para executar operações na Ethereum, como transações ou execuções de contratos inteligentes. O GAS evita que a rede seja sobrecarregada, pois exige que os usuários paguem pela execução do código.
 
 **Custo do GAS:** Varia dependendo da complexidade computacional das operações. Operações mais simples, como adicionar ou subtrair, custam menos GAS, enquanto operações complexas, como loops ou chamadas de contrato, consomem mais.
+
 **GAS Price e GAS Limit:** Quando uma transação é enviada, o remetente define um GAS price (quanto está disposto a pagar por unidade de GAS) e um GAS limit (quantidade máxima de GAS que está disposto a gastar). Se o GAS se esgotar durante a execução de um contrato, a transação falha, mas o usuário ainda paga pelo GAS consumido até o ponto da falha.
 
 ## Smart Contracts
