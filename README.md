@@ -24,6 +24,7 @@ Este repositório foi criado para armazenar e organizar diversos conteúdos e t�
    - [Carteiras de Bitcoin](https://github.com/FelipeFerraz4/blockchain-study/tree/main/b%20-%20Blockchain/h%20-%20Carteiras%20de%20Bitcoin)
    - [Exchanges](https://github.com/FelipeFerraz4/blockchain-study/tree/main/b%20-%20Blockchain/i%20-%20Exchanges)
    - [Anonimato e Pseudoanonimato no Bitcoin]()
+   - [Ethereum]()
 
 ## Contribuições
 
