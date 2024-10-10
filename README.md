@@ -23,8 +23,9 @@ Este repositório foi criado para armazenar e organizar diversos conteúdos e t�
    - [O que é ter Bitcoin?](https://github.com/FelipeFerraz4/blockchain-study/tree/main/b%20-%20Blockchain/g%20-%20O%20que%20e%20ter%20Bitcoin%20%3F)
    - [Carteiras de Bitcoin](https://github.com/FelipeFerraz4/blockchain-study/tree/main/b%20-%20Blockchain/h%20-%20Carteiras%20de%20Bitcoin)
    - [Exchanges](https://github.com/FelipeFerraz4/blockchain-study/tree/main/b%20-%20Blockchain/i%20-%20Exchanges)
-   - [Anonimato e Pseudoanonimato no Bitcoin]()
+   - [Anonimato e Pseudoanonimato no Bitcoin](https://github.com/FelipeFerraz4/blockchain-study/tree/main/b%20-%20Blockchain/j%20-%20Anonimato%20e%20Pseudoanonimato%20no%20Bitcoin)
    - [Ethereum]()
+   - [O Proof of Stake (PoS)]()
 
 ## Contribuições
 
